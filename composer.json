@@ -50,7 +50,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SevenSpan\\Segment\\SegmentServiceProvider"
+        "SevenSpan\\SegmentPhpSdk\\SegmentServiceProvider"
       ]
     }
   },
