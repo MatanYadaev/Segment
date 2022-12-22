@@ -2,16 +2,7 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Alt Three Segment.
- *
- * (c) Alt Three Services Limited
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace AltThree\Tests\Segment;
+namespace SevenSpan\Tests\Segment;
 
 use GrahamCampbell\Analyzer\AnalysisTrait;
 use Laravel\Lumen\Application;
