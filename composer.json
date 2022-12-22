@@ -36,12 +36,12 @@
   },
   "autoload": {
     "psr-4": {
-      "AltThree\\Segment\\": "src/"
+      "SevenSpan\\Segment\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AltThree\\Tests\\Segment\\": "tests/"
+      "SevenSpan\\Tests\\Segment\\": "tests/"
     }
   },
   "config": {
@@ -50,7 +50,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "AltThree\\Segment\\SegmentServiceProvider"
+        "SevenSpan\\Segment\\SegmentServiceProvider"
       ]
     }
   },
