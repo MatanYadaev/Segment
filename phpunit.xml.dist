@@ -16,7 +16,7 @@
          verbose="true"
 >
     <testsuites>
-        <testsuite name="Alt Three Segment Test Suite">
+        <testsuite name="SevenSpan Segment Test Suite">
             <directory suffix="Test.php">./tests</directory>
         </testsuite>
     </testsuites>

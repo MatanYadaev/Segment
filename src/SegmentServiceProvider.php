@@ -9,11 +9,6 @@ use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 use Segment;
 
-/**
- * This is the segment service provider class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class SegmentServiceProvider extends ServiceProvider
 {
     /**

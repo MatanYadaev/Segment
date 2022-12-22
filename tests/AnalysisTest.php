@@ -8,11 +8,6 @@ use GrahamCampbell\Analyzer\AnalysisTrait;
 use Laravel\Lumen\Application;
 use PHPUnit\Framework\TestCase;
 
-/**
- * This is the analysis test class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class AnalysisTest extends TestCase
 {
     use AnalysisTrait;
