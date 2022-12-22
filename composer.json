@@ -21,6 +21,12 @@
       "email": "binal.gajjar7@gmail.com",
       "homepage": "https://github.com/7span/segment-php-sdk",
       "role": "Developer"
+    },
+    {
+      "name": "Kajal Pandya",
+      "email": "kjlkajal98@gmail.com",
+      "homepage": "https://github.com/7span/segment-php-sdk",
+      "role": "Developer"
     }
   ],
   "require": {
@@ -50,7 +56,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SevenSpan\\SegmentPhpSdk\\SegmentServiceProvider"
+        "SevenSpan\\Segment\\SegmentServiceProvider"
       ]
     }
   },

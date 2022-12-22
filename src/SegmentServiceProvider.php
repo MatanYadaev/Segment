@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace SevenSpan\SegmentPhpSdk;
+namespace SevenSpan\Segment;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
