@@ -3,6 +3,10 @@
   "description": "A Segment bridge for Laravel",
   "keywords": [
     "segment",
+    "analytics",
+    "php8.2",
+    "laravel9",
+    "data-analytics",
     "bridge",
     "segment.com",
     "segment.io",
