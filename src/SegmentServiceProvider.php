@@ -16,6 +16,7 @@ class SegmentServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
     public function boot()
     {
         $this->setupConfig();
@@ -32,6 +33,7 @@ class SegmentServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    
     protected function setupConfig()
     {
         $source = realpath($raw = __DIR__.'/../config/segment.php') ?: $raw;
