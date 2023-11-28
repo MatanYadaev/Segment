@@ -1,6 +1,6 @@
 ## Installation
 
-SevenSpan Segment is a [Segment](https://segment.com/) bridge for Laravel. This version requires [PHP](https://php.net) 8.2, and supports Laravel 9. Simply require the package using [Composer](https://getcomposer.org):
+SevenSpan Segment is a [Segment](https://segment.com/) bridge for Laravel. This version requires [PHP](https://php.net) 8.2, and supports Laravel 9 and 10. Simply require the package using [Composer](https://getcomposer.org):
 
 ```bash
 $ composer require sevenspan/segment-php-sdk:^1.0
