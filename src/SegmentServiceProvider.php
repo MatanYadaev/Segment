@@ -2,27 +2,13 @@
 
 declare(strict_types=1);
 
-/*
- * This file is part of Alt Three Segment.
- *
- * (c) Alt Three Services Limited
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace AltThree\Segment;
+namespace SevenSpan\Segment;
 
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
-use Segment;
+use Segment\Segment;
 
-/**
- * This is the segment service provider class.
- *
- * @author Graham Campbell <graham@alt-three.com>
- */
 class SegmentServiceProvider extends ServiceProvider
 {
     /**
@@ -30,6 +16,7 @@ class SegmentServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
     public function boot()
     {
         $this->setupConfig();
@@ -46,6 +33,7 @@ class SegmentServiceProvider extends ServiceProvider
      *
      * @return void
      */
+    
     protected function setupConfig()
     {
         $source = realpath($raw = __DIR__.'/../config/segment.php') ?: $raw;

@@ -12,9 +12,3 @@ If you discover a security vulnerability within this package, please send an
 email to one the security contacts. All security vulnerabilities will be
 promptly addressed. Please do not disclose security-related issues publicly
 until a fix has been announced.
-
-### Security Contacts
-
-* James Brooks (james@alt-three.com)
-* Graham Campbell (graham@alt-three.com)
-* Joe Cohen (joe@alt-three.com)
